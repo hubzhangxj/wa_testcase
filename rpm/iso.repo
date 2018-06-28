@@ -1,0 +1,6 @@
+[Server]
+name=centos7.4
+baseurl=file:///mnt
+enable=1
+gpgcheck=0
+gpgkey=file:///mnt/RPM-GPG-KEY-CentOS-7

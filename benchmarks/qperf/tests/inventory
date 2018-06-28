@@ -1,0 +1,5 @@
+[server]
+192.168.1.213 ansible_ssh_user=root ansible_ssh_pass="root" ansible_sudo_pass="root"
+
+[client]
+192.168.1.194 ansible_ssh_user=root ansible_ssh_pass="root" ansible_sudo_pass="root"

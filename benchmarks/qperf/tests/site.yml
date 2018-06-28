@@ -1,0 +1,12 @@
+- name: Install qperf on Client
+  hosts: client 
+  roles:
+    - { role: ../../qperf, install_qperf: true, run_server: no}
+
+- name: Install qperf on Server
+  hosts: server
+  roles:
+    - { role: ../../qperf, install_qperf: true, run_server: no}
+
+
+

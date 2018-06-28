@@ -1,0 +1,19 @@
+- name: install qperf 
+  yum: name=qperf state=present
+#- name: copy file
+#  copy: src=qperf-0.4.9.tar.gz dest={{ qperf_locate }} mode=0755
+#
+#- name: Decompress qperf tarball
+#  unarchive:
+#    src={{ qperf_locate }}/qperf-0.4.9.tar.gz
+#    dest={{ qperf_locate }}
+#    copy=yes
+#    list_files=yes
+#
+#- name: run install
+#  shell: "./install.sh"
+#  #command: "./install.sh"
+#  #shell: "nohup ./install.sh &"
+#  args:
+#    chdir: /usr/local/benchmark/qperf-0.4.9      
+#  ignore_errors: yes
